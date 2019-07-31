@@ -3,6 +3,14 @@ function takeANumber (katzDeliLine,name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
+function takeANumber2 () {
+  var number = 0;
+  number ++
+  console.log(`welcome. You are ${number}`) 
+}
+
+takeANumber2 ();
+takeANumber2 ();
 
 function nowServing(katzDeliLine) {
   var removeFirst = katzDeliLine.shift();
@@ -23,3 +31,4 @@ for (var i = 0; i < katzDeliLine.length; i++) {
   customerNumber.push (i+1 + ". " + katzDeliLine[i])
 } return "The line is currently: " + customerNumber.join(", ");
 }
+
