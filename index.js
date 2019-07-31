@@ -6,7 +6,7 @@ function takeANumber (katzDeliLine,name) {
 function takeANumber2 () {
   var number = 0;
   number ++
-  console.log(`welcome. You are ${number}`) 
+  console.log(`welcome. You are ${number}`)
 }
 
 takeANumber2 ();
@@ -31,4 +31,3 @@ for (var i = 0; i < katzDeliLine.length; i++) {
   customerNumber.push (i+1 + ". " + katzDeliLine[i])
 } return "The line is currently: " + customerNumber.join(", ");
 }
-
