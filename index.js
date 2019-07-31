@@ -3,8 +3,8 @@ function takeANumber (katzDeliLine,name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
+var number = 0;
 function takeANumber2 () {
-  number = 0;
   number ++
   console.log(`welcome. You are ${number}`)
 }
